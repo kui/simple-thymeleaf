@@ -18,6 +18,7 @@ public class Sample {
 		context.setVariable("title", "Hello, Thymeleaf");
 		
 		System.out.println(engine.process("foo.html", context));
+		System.out.println(engine.getDialects());
 	}
 
 }
